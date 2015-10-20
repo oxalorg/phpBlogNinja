@@ -1,0 +1,145 @@
+/* ## GLOBAL ## */
+/* #FE728C <-- Light Pink */
+/*
+@media(min-height:850px){
+	#me{
+		margin-left: auto;
+		margin-right: auto;
+		max-height:500px;
+		max-width:500px;
+	}
+	body{
+		margin-top: 50px;
+	}
+}
+@media(max-height:850px){
+	#me{
+		margin-left: auto;
+		margin-right: auto;
+		max-height:320px;
+		max-width:320px;
+	}
+	body{
+		margin-top: 25px;
+	}
+}
+*/
+body{
+	background-color: #f1f1f1;
+}
+
+.myInline li{
+	display: inline;
+	padding: 0.1em 0.5em;
+}
+
+.myList_noPadding{
+	padding: 0px;
+}
+code{
+	color: #000;
+	background-color: #EDEDED;
+}
+
+#myCategory{
+	background-color: #C0C0C0;
+	border-color: #C0C0C0;
+}
+
+.myOutput{
+	border: 1px dashed black;
+	padding: 5px;
+}
+
+.myPage{
+	/* background-color:#EEEEEE; */
+	/* border-radius: 15px; */
+	/* -webkit-border-radius: 15px; */
+	/* -moz-border-radius: 15px; */
+}
+
+blockquote{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px 32px;
+	font-size: 1.1em;
+}
+a{    
+    border-color: #c0c0c0;
+    border-bottom: 1px solid #999;
+}
+
+.myOpacity50{
+    opacity: 0.5;
+}
+.myMono{
+    font-family: Consolas, monaco, monospace;
+}
+
+.myRight{
+    text-align: right;
+}
+
+.container{
+    max-width: 720px;  
+}
+
+ul{
+    -webkit-padding-start:20px;
+}
+
+.myTerminalEmulator{
+        color: gray;
+        font-weight: normal;
+}
+.myTerminal{
+    background-color: black;
+    color: white;
+    border-color: black;
+    outline-color: black;
+}back
+
+.myList_noStyle {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ## CUSTOM FONT SETTINGS ## */
+
+.myBlack{ color: black; }
+.myBlack:hover{ color: black; }
+
+.myGray{ color: gray; }
+
+.myBold{ font-weight: bold; }
+.myNoBold{ font-weight: normal; }
+
+
+/*  ## HEADER + FOOTER + SIGNATURE ## */
+
+.mySiteSignature{
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-color: gray;
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+/* ## POSTS ## */
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 120%;
+}
+
+.post {
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	padding-bottom: 20px;
+}
+
+	

@@ -1,0 +1,156 @@
+/* ## GLOBAL ## */
+* {
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+    /*font-size: 1.75rem;
+    line-height: 2.5rem;*/
+}
+
+/*@media(min-width:1200px){
+    *{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+}*/
+
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
+
+.myMono{
+    font-family: Consolas, monaco, monospace;
+}
+.myRight{
+    text-align: right;
+}
+
+.container{
+    max-width: 720px;  
+}
+
+/*a {
+    /*color: #99ccdd;   Blue    */
+    /*  color: #3ad789; Green   */
+    /*font-size: 1em;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}*/
+
+ul{
+    -webkit-padding-start:20px;
+}
+
+.myTerminalEmulator{
+        color: gray;
+        font-weight: normal;
+}
+.myTerminal{
+    background-color: black;
+    color: white;
+    border-color: black;
+    outline-color: black;
+}
+
+.myList_noStyle {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ## CUSTOM FONT SETTINGS ## */
+
+/*
+.myBlue{ color: #99ccdd; }
+.myBlue:hover{ color: #99ccdd; }
+*/
+
+.myGreen{ color: #3ad789; }
+.myGreen:hover{ color: #3ad789; }
+
+.myBlack{ color: black; }
+.myBlack:hover{ color: black; }
+
+.myGray{ color: gray; }
+
+.myBold{ font-weight: bold; }
+.myNoBold{ font-weight: normal; }
+
+
+/*  ## HEADER + FOOTER + SIGNATURE ## */
+
+.mySiteSignature{
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    opacity: 0.5;
+}
+
+#myHeader{
+    padding-top: 10px;
+    float: none;
+    border-bottom: 2px dashed #d5d5d5;
+}
+
+#myFooter{
+    padding-top: 10px;
+    float: none;
+    border-top: 2px dashed #d5d5d5; 
+}
+
+#myHeader ul, #myFooter ul{
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#myHeader ul li, #myFooter ul li{
+    display: inline;
+}
+
+#myHeader a, #myFooter a{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration: none;
+    color: #999;
+    opacity: 0.8;
+    border-style: none;
+}
+
+#myHeader a:hover, #myFooter a:hover{
+    opacity: 1;
+/*  color: #99ccdd; */
+    color: #3ad789;
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+/* ## POSTS ## */
+
+/*.content{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
+
+/*a.post{
+    color: black;
+    text-decoration: none;
+    /*border-width: 0 0 1px 0;
+    border-style: none none solid none; */
+    
+    /*border-color: #c0c0c0;
+    border-bottom: 1px dashed #999;
+}
+
+/*.post{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 120%;
+}
