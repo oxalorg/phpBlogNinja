@@ -11,4 +11,5 @@ if(!empty($_POST) && isset($_SESSION['login_user'])) {
     }
 } else
     echo "Error";
+include 'header.php'
 ?>
